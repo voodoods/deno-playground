@@ -1,0 +1,38 @@
+{
+    "scripts": {
+        "hello-deno": {
+            "cmd": "deno run ./examples/1_hello-deno.ts"
+        },
+        "cat-fact": {
+            "cmd": "deno run ./examples/2_cat-facts.ts",
+            "allow": {
+                "read": true,
+                "net": true,
+                "env": true
+            }
+        },
+        "write-file": {
+            "cmd": "deno run ./examples/3_write-file.ts",
+            "allow": {
+                "write": true
+            }
+        },
+        "read-file": {
+            "cmd": "deno run ./examples/4_read-file.ts",
+            "allow": {
+                "read": true,
+                "write": true
+            }
+        },
+        "server": {
+            "cmd": "deno run ./examples/5_server.ts",
+            "allow": {
+                "read": true,
+                "net": true
+            }
+        }
+    },
+    "env": {
+        "CATS_API_HOST": "https://cat-fact.herokuapp.com"
+    }
+}
