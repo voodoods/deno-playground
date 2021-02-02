@@ -4,11 +4,11 @@ A playground project for fiddling around with Deno.
 
 ## Prerequirements
 
-1. Install deno, see: https://deno.land/manual/getting_started/installation
+1. [Install deno](https://deno.land/manual/getting_started/installation)
 
-2. Install velociraptor, see: https://deno.land/x/velociraptor@1.0.0-beta.16
+2. [Install velociraptor](https://deno.land/x/velociraptor@1.0.0-beta.16)
 
-**Note:** 
+**Note:**
 In case you use ZSH and you get a command like:
 ```sh
 zsh: command not found: vr
@@ -17,6 +17,14 @@ then open your `~/.zshrc` and add the following line:
 ```sh
 alias vr="~/.deno/bin/vr"
 ```
+
+3. In case you use Visual Studio Code - install
+  - the [Deno extension](https://marketplace.visualstudio.com/items?itemName=denoland.vscode-deno)
+  - the [Velociraptor extension](https://marketplace.visualstudio.com/items?itemName=umbo.vscode-velociraptor) (optional)
+
+
+4. In case you prefer to use a different, somewhat popular IDE with a mediocre plugin infrastructure, there might also be a [vaguely functional deno plugin](https://plugins.jetbrains.com/plugin/14382-deno) for you
+
 
 ## Nice to know
 
